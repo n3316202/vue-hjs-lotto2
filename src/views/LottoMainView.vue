@@ -2,7 +2,6 @@
   <body>
     <lotto-header></lotto-header>
     <lotto-main></lotto-main>
-    <router-view />
     <lotto-footer></lotto-footer>
   </body>
 </template>
