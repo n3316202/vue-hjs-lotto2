@@ -1,15 +1,13 @@
 <template>
-  <LottoMainView></LottoMainView>
+  <div>
+    <router-view />
+  </div>
 </template>
 
 <script>
-import LottoMainView from './views/LottoMainView.vue'
-
 export default {
   name: 'App',
-  components: {
-    LottoMainView
-  }
+  components: {}
 }
 </script>
 

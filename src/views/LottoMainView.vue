@@ -2,6 +2,7 @@
   <body>
     <lotto-header></lotto-header>
     <lotto-main></lotto-main>
+    <router-view />
     <lotto-footer></lotto-footer>
   </body>
 </template>
@@ -37,10 +38,10 @@ export default {
 </script>
 
 <style scoped>
-/* body {
+body {
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-} */
+}
 </style>
